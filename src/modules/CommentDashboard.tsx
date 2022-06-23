@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import Rating from "../components/Rating"
-import { getReviews } from '../api/ReviewApi'
 import { Comment, Review } from '../Types'
 import ReviewCard from '../components/ReviewCard'
 import CommentCard from '../components/CommentCard'

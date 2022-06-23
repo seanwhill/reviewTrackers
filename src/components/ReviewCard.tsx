@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Rating from "./Rating"
-import { getReviews } from '../api/ReviewApi'
 import { Review } from '../Types'
 import { getFormattedDate, stringToDate } from '../util/DateUti'
 

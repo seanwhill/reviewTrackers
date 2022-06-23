@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
-import Rating from "./Rating"
-import { getReviews } from '../api/ReviewApi'
 import { Comment, Review } from '../Types'
-import ReviewCard from './ReviewCard'
 import DropDownMenu from './DropDownMenu'
-import { Console } from 'console'
 import { getFormattedDate } from '../util/DateUti'
 
 
